@@ -20007,8 +20007,8 @@ a.u-link.u-text-hover-color-var:hover {
 
 .u-header .u-nav-1 {
   font-weight: 700;
-  text-transform: uppercase;
   font-size: 1rem;
+  text-transform: uppercase;
 }
 
 .u-header .u-menu-close-1 {
@@ -20076,42 +20076,54 @@ a.u-link.u-text-hover-color-var:hover {
 }
  .u-footer {
   background-image: none;
+  margin-top: 20px;
 }
 
 .u-footer .u-sheet-1 {
-  min-height: 581px;
+  min-height: 671px;
+}
+
+.u-footer .u-image-1 {
+  width: 203px;
+  height: 203px;
+  background-image: url("images/2025-07-0217_33_34-Instagram-Opera.png");
+  background-position: 50% 50%;
+  margin: -118px auto 0;
 }
 
 .u-footer .u-text-1 {
   font-size: 1.5rem;
   width: 530px;
-  margin: 88px auto 0;
+  margin: 20px auto 0;
 }
 
-.u-footer .u-image-1 {
-  width: 249px;
-  height: 249px;
-  background-image: url("../images/3mTKJyiwwBqF.png");
-  background-position: 50% 50%;
-  margin: -396px auto 60px;
+.u-footer .u-social-icons-1 {
+  height: 48px;
+  width: 270px;
+  min-width: 160px;
+  margin: 105px auto 60px;
+}
+
+.u-footer .u-icon-1 {
+  color: rgb(0, 0, 0) !important;
+  height: 48px;
+}
+
+.u-footer .u-icon-2 {
+  height: 100%;
+  color: rgb(210, 34, 21) !important;
+}
+
+.u-footer .u-icon-3 {
+  height: 0;
 }
 
 
 
 @media (max-width: 575px) {
   .u-footer .u-text-1 {
-    width: auto;
     font-size: 1rem;
-    margin-top: 95px;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .u-footer .u-image-1 {
-    width: 177px;
-    height: 177px;
-    margin-top: -279px;
-    margin-bottom: 102px;
+    width: 340px;
   }
 }
 
