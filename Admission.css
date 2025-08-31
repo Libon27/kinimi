@@ -1163,30 +1163,3 @@
     margin-left: 161px;
   }
 }
-
-/* Mobile-specific layout for subjects - make all follow image-text pattern */
-@media (max-width: 767px) {
-  /* Force all subjects to follow image-text pattern in mobile */
-  .u-section-2 .u-layout-row:nth-child(2) .u-layout-cell:first-child,
-  .u-section-3 .u-layout-row:nth-child(2) .u-layout-cell:first-child,
-  .u-section-4 .u-layout-row:nth-child(2) .u-layout-cell:first-child,
-  .u-section-5 .u-layout-row:nth-child(2) .u-layout-cell:first-child {
-    order: 2;
-  }
-  
-  .u-section-2 .u-layout-row:nth-child(2) .u-layout-cell:last-child,
-  .u-section-3 .u-layout-row:nth-child(2) .u-layout-cell:last-child,
-  .u-section-4 .u-layout-row:nth-child(2) .u-layout-cell:last-child,
-  .u-section-5 .u-layout-row:nth-child(2) .u-layout-cell:last-child {
-    order: 1;
-  }
-  
-  /* Ensure layout rows use flexbox for ordering to work */
-  .u-section-2 .u-layout-row,
-  .u-section-3 .u-layout-row,
-  .u-section-4 .u-layout-row,
-  .u-section-5 .u-layout-row {
-    display: flex;
-    flex-direction: row;
-  }
-}
